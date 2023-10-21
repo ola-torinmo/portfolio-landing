@@ -22,7 +22,7 @@ const Hero =()=>{
          <div className="w-full bg-white py-10">
             <div className="md:max-w-[1028px] max-w-[600px] m-auto grid md:grid-cols-2">
                 <div className="flex flex-col justify-start gap-2">
-                    <h1 className="md:text-4xl text-2xl md:w-[565px]  font-semibold pb-5 ">WEBSITES THAT NOT ONLY CAPTIVATE BUT CONVERT</h1>
+                    <h1 className="md:text-3xl text-2xl md:w-[565px]  font-semibold pb-5 ">WEBSITES THAT NOT ONLY CAPTIVATE BUT CONVERT</h1>
                     <p className="md:w-[533px] w-[333px] text-lg pb-3 par">We specialize in creating websites for full scale organizations in industries such as:</p>
                     <div>
                         <ul className="text-lg font-medium pb-5 par">

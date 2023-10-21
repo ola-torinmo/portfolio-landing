@@ -8,7 +8,7 @@ import service2 from "../assets/service2.png";
     return(
         <div className="w-full bg-white">
            <div className="h-[90px]">
-                <h2 className="md:max-w-[1028px] max-w-[600px]  m-auto border-b pb-2 text-[21px] font-medium">OUR WEB DEVELOPMENT SPECIALTIES</h2>
+                <h1 className="md:max-w-[1028px] max-w-[600px]  m-auto border-b pb-2 text-[21px] font-medium">OUR WEB DEVELOPMENT SPECIALTIES</h1>
            </div>
             <div className="md:max-w-[1028px] max-w-[600px]  m-auto flex flex-row gap-8">
                 <div className="flex flex-col">

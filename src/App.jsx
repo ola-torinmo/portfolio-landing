@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css";
-import { Navabar, Hero,Service } from "./component";
+import { Navabar, Hero,Service, Convert } from "./component";
+
 // import Hero from "./component/Hero";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <Navabar/>
     <Hero/>
     <Service/>
+    <Convert/>
    </div>
   )
 }
