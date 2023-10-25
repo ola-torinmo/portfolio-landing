@@ -22,10 +22,10 @@ const Hero =()=>{
          <div className="w-full bg-white py-10">
             <div className="md:max-w-[1028px] max-w-[600px] m-auto grid md:grid-cols-2">
                 <div className="flex flex-col justify-start gap-2">
-                    <h1 className="md:text-3xl text-2xl md:w-[565px]  font-semibold pb-5 ">WEBSITES THAT NOT ONLY CAPTIVATE BUT CONVERT</h1>
-                    <p className="md:w-[533px] w-[333px] text-lg pb-3 par">We specialize in creating websites for full scale organizations in industries such as:</p>
+                    <h1 className="md:text-3xl text-2xl md:w-[565px] md:text-left text-center  font-semibold pb-5 ">WEBSITES THAT NOT ONLY CAPTIVATE BUT CONVERT</h1>
+                    <p className="md:w-[533px] w-[333px] text-lg pb-3 md:pl-0 pl-5">We specialize in creating websites for full scale organizations in industries such as:</p>
                     <div>
-                        <ul className="text-lg font-medium pb-5 par">
+                        <ul className="text-lg font-medium pb-5 md:pl-0 pl-5">
                             <li>Real Estate</li>
                             <li>Healthcare</li>
                             <li>Construction</li>
@@ -33,9 +33,9 @@ const Hero =()=>{
                             <li>SAAS platforms</li>
                         </ul>
                     </div>
-                    <button className=" w-[170px] py-1 rounded-full bg-[#009387] text-white text-center "><span className="">Schedule a call</span></button>
+                    <button className=" w-[170px] py-1 rounded-full bg-[#009387] text-white text-center md:self-start self-center"><span className="">Schedule a call</span></button>
                 </div>
-                <img className="md:order-last order-first" src={heroImg}/>
+                <img className="md:order-last order-first " src={heroImg}/>
             </div>
 
         </div>

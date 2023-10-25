@@ -6,7 +6,7 @@ const Budget =()=>{
 
         <div className="w-full bg-white py-10">
         <div className="h-[90px]">
-                <h1 className="md:max-w-[1028px] max-w-[600px]  m-auto border-b pb-5 text-[21px] font-medium">OUR WEB DEVELOPMENT SPECIALTIES</h1>
+                <h1 className="md:max-w-[1028px] max-w-[600px]  m-auto border-b pb-5 text-[21px] font-medium md:text-left text-center">OUR WEB DEVELOPMENT SPECIALTIES</h1>
         </div>
         <div className="md:max-w-[1028px] max-w-[600px] m-auto grid md:grid-cols-2 pt-5 ">
             <div className="flex flex-col justify-start gap-2">
@@ -15,7 +15,7 @@ const Budget =()=>{
                 
                 <button className=" w-[130px]  rounded-full bg-[#009387] text-white  self-center"><span className="text-sm text-center ">Get a quote</span></button>
             </div>
-            <img className="md:order-first order-last shrink-0 w-[300px]" src={budgetgif}/>
+            <img className="md:order-first order-last shrink-0 w-[300px] md:justify-self-start justify-self-center" src={budgetgif}/>
         </div>
 
     </div>

@@ -12,13 +12,13 @@ const Webcost =()=>{
         <div>
             <div className="md:max-w-[1028px] max-w-[600px]  m-auto w-full bg-white py-10">
             <div className="h-[90px]">
-                <h1 className=" border-b pb-2 text-[21px] font-medium">WEB DEVELOPMENT COST</h1>
+                <h1 className=" border-b pb-2 text-[21px] font-medium md:text-left text-center">WEB DEVELOPMENT COST</h1>
             </div>
-            <div className="  pb-2 text-[#121212BF] ">
+            <div className="  pb-2 text-[#121212BF] md:pl-0 pl-5 ">
                         <h1 className="text-[18px] pb-5 ">The ultimate cost of your web solution development project is defined by a number of factors:</h1>
                         
             </div>
-            <div className="  m-auto grid grid-cols-3 py-16">
+            <div className="  m-auto grid md:grid-cols-3 grid-cols-2 py-16 md:pl-0 pl-5">
                 <div className="py-6 flex">
                     <img src={handshake} className="shrink-0 w-[30px]"/>
                     <h1 className="pl-4 pt-1">Co-operation model</h1>
@@ -47,7 +47,7 @@ const Webcost =()=>{
                 
                 
             </div>
-            <div className="  m-auto pb-2 text-[#121212BF] ">
+            <div className="  m-auto pb-2 text-[#121212BF] md:pl-0 pl-5 ">
                         <h1 className="text-[18px] pb-5 ">We help tailor expenses to your particular financial capabilities and avoid hidden costs due to well-adjusted processes.</h1>
                         
             </div>
