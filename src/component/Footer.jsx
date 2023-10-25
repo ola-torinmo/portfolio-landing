@@ -1,0 +1,10 @@
+import React from "react";
+
+const Footer =()=>{
+    return(
+        <div className=" pt-[60px]  border-t">
+            <h1 className="h-[102px] text-center justify-center   text-sm text-[#121212B2]  place-items-center  ">2023 Axel Cyber Enterprises. All Rights Reserved</h1>
+        </div>
+    )
+}
+export default Footer;
