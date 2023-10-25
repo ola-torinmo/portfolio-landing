@@ -10,7 +10,7 @@ import service2 from "../assets/service2.png";
            <div className="h-[90px]">
                 <h1 className="md:max-w-[1028px] max-w-[600px]  m-auto border-b pb-2 text-[21px] font-medium">OUR WEB DEVELOPMENT SPECIALTIES</h1>
            </div>
-            <div className="md:max-w-[1028px] max-w-[600px]  m-auto flex flex-row gap-8">
+            <div className="md:max-w-[1028px] max-w-[600px]  m-auto md:flex flex-row gap-8">
                 <div className="flex flex-col">
                     <div className=" w-[536px] pb-8">
                         <h1 className="text-lg pb-3">Turnkey web app development</h1>
