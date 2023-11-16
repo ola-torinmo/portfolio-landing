@@ -28,6 +28,7 @@ import service2 from "../assets/service2.png";
                         <h1 className="text-lg pb-3">Back-end Development</h1>
                         <p className="text-sm">We have profiled specialists that build secure, high-performance backbone architectures that pledge software resilience even in the harshest conditions.</p>
                     </div>
+                    <img className="md:w-[440px] w-[360px] md:hidden  pb-6 " src={service2}/>
                     <div className="md:w-[500px]  w-[380px] pb-8">
                         <h1 className="text-lg pb-3">Web testing</h1>
                         <p className="text-sm">By combining a variety of the best traditional manual and automated testing approaches, QA, and custom-written tests, we help polish out premium web products.</p>
@@ -52,8 +53,8 @@ import service2 from "../assets/service2.png";
                     
                 </div>
                 <div className="flex flex-col  md:pl-0 pl-5">
-                    <img className="w-[440px]  pb-6 " src={service2}/>
-                    <img className="w-[440px]  pt-" src={service1}/>
+                    <img className="md:w-[440px] w-[360px] hidden lg:block  pb-6 " src={service2}/>
+                    <img className="md:w-[440px] w-[360px]  " src={service1}/>
 
                 </div>
                 

@@ -33,7 +33,7 @@ const Hero =()=>{
                             <li>SAAS platforms</li>
                         </ul>
                     </div>
-                    <button className=" w-[170px] py-1 rounded-full bg-[#009387] text-white text-center md:self-start self-center"><span className="">Schedule a call</span></button>
+                    <button className=" w-[170px] py-1 rounded-full bg-[#009387] text-white text-center md:ml-0 ml-5"><span className="">Schedule a call</span></button>
                 </div>
                 <img className="md:order-last order-first " src={heroImg}/>
             </div>

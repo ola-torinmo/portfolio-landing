@@ -18,7 +18,7 @@ const Webcost =()=>{
                         <h1 className="text-[18px] pb-5 ">The ultimate cost of your web solution development project is defined by a number of factors:</h1>
                         
             </div>
-            <div className="  m-auto grid md:grid-cols-3 grid-cols-2 py-16 md:pl-0 pl-5">
+            <div className="  m-auto grid md:grid-cols-3 grid-cols-1 md:py-10 py-2 md:pl-0 pl-5">
                 <div className="py-6 flex">
                     <img src={handshake} className="shrink-0 w-[30px]"/>
                     <h1 className="pl-4 pt-1">Co-operation model</h1>
